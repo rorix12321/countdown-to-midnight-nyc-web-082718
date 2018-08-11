@@ -11,12 +11,12 @@ end
 
 def countdown_with_sleep(number)
   counter = number
-  until counter >= 6
+  until counter >= 5
     counter += 1
   end
   while counter >= 0
     puts "#{counter} SECOND(S)!"
-    sleep(1.second)
+    sleep 1
     counter -= 1
   end
 end
