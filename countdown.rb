@@ -11,7 +11,7 @@ end
 
 def countdown_with_sleep(number)
   counter = number
-  until counter >= 5
+  until counter >= 6
     counter += 1
   end
   while counter >= 0
