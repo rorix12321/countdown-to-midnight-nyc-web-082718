@@ -20,4 +20,3 @@ def countdown_with_sleep(number)
     counter -= 1
   end
 end
-end
